@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: rgb(219, 255, 249);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin-bottom: 10;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10;
+}
+
+table {
+  width: 400px;
+  height: 400px;
+  background: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  background: white;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0%;
+}
+
+button {
+  font-size: 70px;
+  font-weight: 600;
+  border-color: #98fff6;
+  border-radius: 1px;
+  background: #98fff6;
+  color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  outline: none;
+}
+
+.resetButton {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  border-color: black;
+  border-radius: 10px;
+  background: #98fff6;
+  color: black;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  outline: none;
+}
+
+button:active {
+  border-style: hidden;
+}
+
+button:hover {
+  background-color: #0025f7;
+  padding: 0%;
+  cursor: pointer;
+  border: 1px solid black;
+}
+button:focus {
+  background: #0025f7;
+  color: white;
+  padding: 0%;
+  border: 1px solid black;
+}
+button:disabled {
+  background: #0025f7;
+  color: white;
+  padding: 0%;
+  cursor: not-allowed;
+  border: 1px solid black;
+}
